@@ -101,7 +101,7 @@ export default function ChatInterface({
       </div>
 
       {/* Messages Area */}
-      <div className="flex-1 overflow-y-auto p-4 space-y-4">
+      <div className="flex-1 overflow-y-auto p-4 space-y-4 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
         {messages.length === 0 && selectedDocument && (
           <div className="space-y-4">
             <div className="text-center text-gray-500 py-8">
@@ -159,7 +159,8 @@ export default function ChatInterface({
                     : 'bg-gray-100 text-gray-900'
                 }`}
               >
-                <p className="text-sm whitespace-pre-wrap break-words max-w-xs">{message.content}</p>
+                {/* use max-w-[363px] for exact message box fillup */}
+                <p className="text-sm whitespace-pre-wrap break-words max-w-[330px]">{message.content}</p>
                 
                 {message.citations && message.citations.length > 0 && (
                   <div className="mt-3 pt-3 border-t border-gray-200 space-y-2">

@@ -47,7 +47,7 @@ export default function DocumentList({
         <h3 className="text-sm font-medium text-gray-900">Documents ({documents.length})</h3>
       </div>
       
-      <div className="divide-y divide-gray-200 max-h-64 overflow-y-auto">
+      <div className="divide-y divide-gray-200 max-h-[282px] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
         {documents.map((document) => (
           <div
             key={document.id}

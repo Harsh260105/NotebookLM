@@ -135,7 +135,7 @@ export default function PDFViewer({ file, currentPage, onPageChange, highlightPa
       </div>
 
       {/* PDF Content */}
-      <div className="flex-1 overflow-auto bg-gray-100 p-4">
+      <div className="flex-1 overflow-auto bg-gray-100 p-4 scrollbar-none">
         <div className="flex justify-center">
           <div 
             className={`bg-white shadow-lg transition-all duration-300 ${
