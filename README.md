@@ -37,7 +37,7 @@ A sophisticated web application that enables users to upload PDF documents and i
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Harsh260105/NotebookLM
    cd notebooklm-clone
    ```
 
@@ -192,13 +192,6 @@ The application can be deployed to any static hosting service:
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Google Gemini AI for powerful document understanding
-- PDF.js team for excellent PDF processing capabilities
-- React and TypeScript communities for robust development tools
-- Tailwind CSS for beautiful, responsive styling
 
 ## 📞 Support
 
