@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { pdfjs } from 'react-pdf';
 import App from './App.tsx';
 import './index.css';
+import { Analytics } from '@vercel/analytics/react';
 
 const workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.mjs',
@@ -14,5 +15,6 @@ pdfjs.GlobalWorkerOptions.workerSrc = workerSrc;
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
+    <Analytics />
   </StrictMode>
 );
