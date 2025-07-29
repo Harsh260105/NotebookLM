@@ -37,7 +37,7 @@ A sophisticated web application that enables users to upload PDF documents and i
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/Harsh260105/NotebookLM)
    cd notebooklm-clone
    ```
 
